@@ -251,5 +251,95 @@ section .page3 {
     color: white;
 }
 
+.footer {
+    background-color: #111;
+}
+
+.footer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.icon a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.icon a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.icon a:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav {
+    margin: 30px 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.nav ul li a:hover {
+    opacity: 1;
+}
+
+.bottom {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom p {
+    color: #fff;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px;){
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
 
 
