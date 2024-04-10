@@ -64,3 +64,40 @@ nav ul li a:hover {
     color: white !important;
 }
 
+.page1 {
+    height: 80vh;
+    background-image: url('../image/alam.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1 h2 {
+    color: floralwhite;
+    font-family: 'popins', sans-serif;
+}
+
+section {
+    padding: 35px 0;
+    font-family: 'merriweather', sans-serif;
+    font-size: 2rem;
+}
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #2C7865;
+}
+
+.bagian {
+    font-size: 18px;
+    height: 35vh;
+    text-align: center;
+    justify-content: center;
+    line-height: 1,5;
+}
+
+
