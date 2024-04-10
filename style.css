@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'merriweather', sans-serif; 
+}
+
+nav {
+    background-color: #2C7865;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.judul {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: chocolate;
+    transition: all .3s ease-in-out;
+}
+
+.active {
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+}
+
+.active:hover {
+    color: white !important;
+}
+
