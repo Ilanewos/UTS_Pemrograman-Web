@@ -225,6 +225,31 @@ section .page3 {
     font-size: 20px;
 }
 
+.page5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../image/pohon.jpg');
+    background-size: cover;
+    height: px;
+    border: 1px solid;
+}
+
+.contact {
+    text-align: center;
+    padding: 0;
+}
+
+.contact h3 {
+    font-size: 1em;
+    color: #fff;
+}
+
+.contact p {
+    margin: 20px ;
+    font-size: 20px;
+    color: white;
+}
 
 
 
